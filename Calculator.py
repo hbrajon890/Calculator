@@ -5,8 +5,8 @@ print("4 - Divide")
 option = int(input("Choose an operation: "))
 
 if(option in [1,2,3,4]):
-    number1 = int(input("Enter the first number:"))
-    number2 = int(input("Enter the second number: "))
+    number1 = float(input("Enter the first number:"))
+    number2 = float(input("Enter the second number: "))
 
     if(option == 1):
         result = number1 + number2
@@ -15,7 +15,7 @@ if(option in [1,2,3,4]):
     elif(option == 3):
         result= number1 * number2
     elif(option == 4):
-        result = number1 // number2    #// mane sudu int 
+        result = number1 / number2    #// mane sudu int 
 
 
 
